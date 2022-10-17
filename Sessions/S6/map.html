@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2c119fc1eba8204e7ad1740401c0bcf0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2c119fc1eba8204e7ad1740401c0bcf0" ></div>
+        
+</body>
+<script>    
+    
+            var map_2c119fc1eba8204e7ad1740401c0bcf0 = L.map(
+                "map_2c119fc1eba8204e7ad1740401c0bcf0",
+                {
+                    center: [52.5, 13.35],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8b490c538c863cf47e55956b1f8fc67a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2c119fc1eba8204e7ad1740401c0bcf0);
+        
+    
+            var marker_59a049b4e6dad495e60da404a042a37d = L.marker(
+                [52.493916, 13.446655],
+                {}
+            ).addTo(map_2c119fc1eba8204e7ad1740401c0bcf0);
+        
+    
+            var icon_31701edde16418a95c0759d7685f841f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": " \"star\"", "iconColor": "white", "markerColor": " \"red\"", "prefix": "glyphicon"}
+            );
+            marker_59a049b4e6dad495e60da404a042a37d.setIcon(icon_31701edde16418a95c0759d7685f841f);
+        
+    
+        var popup_49227e98fbf18064b197b511ccd59c4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0f5032742ac59c763b4fbc960ca0322 = $(`<div id="html_f0f5032742ac59c763b4fbc960ca0322" style="width: 100.0%; height: 100.0%;"> "CODE Univeersity of Applied Sciences"</div>`)[0];
+                popup_49227e98fbf18064b197b511ccd59c4f.setContent(html_f0f5032742ac59c763b4fbc960ca0322);
+            
+        
+
+        marker_59a049b4e6dad495e60da404a042a37d.bindPopup(popup_49227e98fbf18064b197b511ccd59c4f)
+        ;
+
+        
+    
+    
+            var marker_f3da298d54c81590da2f39366a0a4594 = L.marker(
+                [52.534056, 13.39771],
+                {}
+            ).addTo(map_2c119fc1eba8204e7ad1740401c0bcf0);
+        
+    
+            var icon_b3bfd4ba93a56975c3497a5ea2563b1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": " \"home\"", "iconColor": "white", "markerColor": " \"blue\"", "prefix": "glyphicon"}
+            );
+            marker_f3da298d54c81590da2f39366a0a4594.setIcon(icon_b3bfd4ba93a56975c3497a5ea2563b1f);
+        
+    
+        var popup_d4ad7054645b8e27fdf8c0ecb3927a07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f0700c6aa08b41a28bc406088c39d45 = $(`<div id="html_4f0700c6aa08b41a28bc406088c39d45" style="width: 100.0%; height: 100.0%;"> "Home Brunnenstraße"</div>`)[0];
+                popup_d4ad7054645b8e27fdf8c0ecb3927a07.setContent(html_4f0700c6aa08b41a28bc406088c39d45);
+            
+        
+
+        marker_f3da298d54c81590da2f39366a0a4594.bindPopup(popup_d4ad7054645b8e27fdf8c0ecb3927a07)
+        ;
+
+        
+    
+    
+            var marker_e105989217f6d50be4dc38df7ba264a1 = L.marker(
+                [52.520869, 13.4094671],
+                {}
+            ).addTo(map_2c119fc1eba8204e7ad1740401c0bcf0);
+        
+    
+            var icon_9270ca9a659dfa594b48637c2362f316 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": " \"map-marker\"", "iconColor": "white", "markerColor": " \"green\"", "prefix": "glyphicon"}
+            );
+            marker_e105989217f6d50be4dc38df7ba264a1.setIcon(icon_9270ca9a659dfa594b48637c2362f316);
+        
+    
+        var popup_9f5da94577c4d4ce78ad7f61afd515b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0e3b5294abac3b8efb02a3a71961e8a = $(`<div id="html_f0e3b5294abac3b8efb02a3a71961e8a" style="width: 100.0%; height: 100.0%;"> "TV Tower"</div>`)[0];
+                popup_9f5da94577c4d4ce78ad7f61afd515b5.setContent(html_f0e3b5294abac3b8efb02a3a71961e8a);
+            
+        
+
+        marker_e105989217f6d50be4dc38df7ba264a1.bindPopup(popup_9f5da94577c4d4ce78ad7f61afd515b5)
+        ;
+
+        
+    
+</script>
